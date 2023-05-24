@@ -17,10 +17,10 @@ function Complaintlist() {
 		<thead>
 			<tr>
 				<th>Name</th>
-				<th></th>
-				<th>Column 3</th>
-				<th>Column 4</th>
-				<th>Column 5</th>
+				<th>Branch Name</th>
+				<th>Complaint</th>
+				<th>Date</th>
+				<th>Subject</th>
 			</tr>
 		</thead>
 		<tbody>
