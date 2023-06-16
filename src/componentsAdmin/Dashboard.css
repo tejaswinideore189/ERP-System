@@ -1,7 +1,7 @@
-.c-dashboardInfo {
+.c-dashboardInfo1 {
     margin-bottom: 15px;
   }
-  .c-dashboardInfo .wrap {
+  .c-dashboardInfo1 .wrap {
     background: #ffffff;
     box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
@@ -16,7 +16,7 @@
     color: #6c6c6c;
     font-size: 1.18em;
   }
-  .c-dashboardInfo span {
+  .c-dashboardInfo1 span {
     display: block;
   }
   .c-dashboardInfo__count {
@@ -25,7 +25,7 @@
     line-height: 64px;
     color: #323c43;
   }
-  .c-dashboardInfo .wrap:after {
+  .c-dashboardInfo1 .wrap:after {
     display: block;
     position: absolute;
     top: 0;
@@ -35,23 +35,23 @@
     content: "";
   }
   
-  .c-dashboardInfo:nth-child(1) .wrap:after {
+  .c-dashboardInfo1:nth-child(1) .wrap:after {
     background: linear-gradient(82.59deg, #00c48c 0%, #00a173 100%);
   }
-  .c-dashboardInfo:nth-child(2) .wrap:after {
+  .c-dashboardInfo1:nth-child(2) .wrap:after {
     background: linear-gradient(81.67deg, #0084f4 0%, #1a4da2 100%);
   }
-  .c-dashboardInfo:nth-child(3) .wrap:after {
+  .c-dashboardInfo1:nth-child(3) .wrap:after {
     background: linear-gradient(69.83deg, #0084f4 0%, #00c48c 100%);
   }
-  .c-dashboardInfo:nth-child(4) .wrap:after {
+  .c-dashboardInfo1:nth-child(4) .wrap:after {
     background: linear-gradient(81.67deg, #ff647c 0%, #1f5dc5 100%);
   }
-  .c-dashboardInfo__title svg {
+  .c-dashboardInfo__title1 svg {
     color: #d7d7d7;
     margin-left: 5px;
   }
-  .MuiSvgIcon-root-19 {
+  .MuiSvgIcon-root-191 {
     fill: currentColor;
     width: 1em;
     height: 1em;
@@ -70,4 +70,16 @@
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(0.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.row {
+  /* display: flex; */
+  width: 100%;
+  margin-right: 0px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+}
+@media (min-width: 992px){
+ .container {
+    max-width: 815px;
+}
 }
